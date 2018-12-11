@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a510.startgo">
+
+    <!--전화를 보내기 위한 퍼미션-->
+    <uses-permission android:name="android.permission.DIAL_PHONE" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <!--푸시를 보내기위해 핸드폰 상태를 읽기 위한 퍼미션-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/sos_logo"
+        android:label="S.O.S"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:hardwareAccelerated="true"> //하드웨어 가속
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Emergency_main_Activity"
+            android:label="응급상황  액티비티"></activity>
+        <activity
+            android:name=".Run_main_Activity"
+            android:label="대피상황 액티비티"></activity>
+        <activity
+            android:name=".First_main_Activity"
+            android:label="로그인후 액티비티"></activity>
+        <activity
+            android:name=".Stroke_solution_Activity"
+            android:label="발작 대처법 액티비티"></activity>
+        <activity
+            android:name=".Respiration_solution_Activity"
+            android:label="호흡정지 대처법 액티비티"></activity>
+        <activity
+            android:name=".Fire_section_Activity"
+            android:label="화재 섹션 액티비티"></activity>
+        <activity
+            android:name=".Flooding_section_Activity"
+            android:label="침수 섹션 액티비티"></activity>
+        <activity
+            android:name=".Heart_stop_solution_Activity"
+            android:label="심정지 대처법 액티비티"></activity>
+        <activity
+            android:name=".Injury_solution_Activity"
+            android:label="상해 대처법 액티비티"></activity>
+        <activity
+            android:name=".Injury_call_Activity"
+            android:label="상해 신고 액티비티"></activity>
+        <activity
+            android:name=".Heart_stop_section_Activity"
+            android:label="심정지 섹션 액티비티"></activity>
+
+        <service
+            android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

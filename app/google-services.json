@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "284090345564",
+    "firebase_url": "https://startgo-63535.firebaseio.com",
+    "project_id": "startgo-63535",
+    "storage_bucket": "startgo-63535.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284090345564:android:5716e7e87a23ac44",
+        "android_client_info": {
+          "package_name": "com.example.a510.startgo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284090345564-qasfv6393dlos44df75hvsjh7485pjrg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a510.startgo",
+            "certificate_hash": "476a141e4b264469fd767bdbeebd9a191539e908"
+          }
+        },
+        {
+          "client_id": "284090345564-sl240j8810fu58t522l2ahmtb0v2ns3q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn6UaB4-CKwchTOKPhYqdXuXceeMHMJD0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "284090345564-sl240j8810fu58t522l2ahmtb0v2ns3q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

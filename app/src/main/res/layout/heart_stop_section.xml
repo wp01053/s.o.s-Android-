@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="0.76"
+        android:gravity="center"
+        android:text="Section"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/heart_run_out1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Out" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/heart_run_A"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="A" />
+
+        <Button
+            android:id="@+id/heart_run_B"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="B" />
+
+        <Button
+            android:id="@+id/heart_run_C"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="C" />
+
+        <Button
+            android:id="@+id/heart_run_D"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="D" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/heart_run_E"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="E" />
+
+        <Button
+            android:id="@+id/heart_run_F"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="F" />
+
+        <Button
+            android:id="@+id/heart_run_G"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="G" />
+
+        <Button
+            android:id="@+id/heart_run_H"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="H" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/heart_run_out2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Out" />
+
+</LinearLayout>
